@@ -1,0 +1,6 @@
+#Identificare i caratteri Unicode che rappresentano i 4 semi del poker(cuori, quadri,fiori, picche) nella variante solo bordo. Create una stringa con i 4 semi
+
+
+colori = b"0xF0 \0x9F\ 0x82\ 0xB1\ 0xF0\ 0x9F\ 0x83\ 0x8E\ 0xF0\ 0x9F\ 0x83\ 0x91\ 0xF0\ 0x9F\ 0x82\ 0xA1"
+stringa = soloBytes.decode()
+print(stringa)
